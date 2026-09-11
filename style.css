@@ -1,0 +1,32 @@
+/* Reset básico para el formateo de Prism.js */
+pre[class*="language-"] {
+  background: transparent !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Ocultar barra de scroll visualmente en todo momento dentro del card */
+#exportCard ::-webkit-scrollbar {
+  display: none !important;
+  width: 0px !important;
+  height: 0px !important;
+}
+
+#exportCard * {
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none !important; /* IE/Edge */
+}
+
+/* Reglas aplicadas al momento de capturar */
+.expand-for-capture {
+  max-width: none !important;
+  width: max-content !important;
+  overflow: visible !important;
+}
+
+/* Desactiva el scroll en todos los contenedores internos al capturar */
+.expand-for-capture * {
+  overflow: visible !important;
+  max-width: none !important;
+  max-height: none !important;
+}
