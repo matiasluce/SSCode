@@ -1,38 +1,59 @@
 # 📸 SSCode
 
-Una aplicación web moderna, rápida y liviana para convertir tus fragmentos de código (HTML, CSS, JS, Python) en capturas de pantalla estilizadas y elegantes, perfectas para compartir en redes sociales, blogs o documentación.
+SSCode es una herramienta web para convertir fragmentos de código en capturas elegantes y listas para compartir. Está pensada para desarrolladores que quieren generar previews limpias, con estilo macOS y exportación directa en PNG.
 
-![SSCode Preview](https://raw.githubusercontent.com/tu-usuario/sscode/main/preview.png) <!-- Reemplazá este enlace por una captura real de tu app -->
-
----
-
-## 🚀 Características
-
-- 🎨 **Sintaxis Resaltada:** Soporte para JavaScript, Python, HTML y CSS mediante Prism.js.
-- 🎨 **Fondos Degradados:** Cambio de paleta de colores del marco con un solo clic.
-- 📏 **Padding Adaptable:** Slider en tiempo real para ajustar el espaciado alrededor del código.
-- 💻 **Estilo macOS:** Interfaz elegante con botones de control de ventana y nombre de archivo editable.
-- ⚡ **Sin Server (100% Frontend):** Todo el procesamiento ocurre en el navegador de forma privada e instantánea.
-- 🔍 **Exportación Limpia:** Capturas en alta resolución en formato PNG sin barras de scroll visibles.
+![SSCode Preview](./img/preview.png)
 
 ---
 
-## 🛠️ Stack Tecnológico
+## ✨ Características
 
-- **HTML5 & CSS3**
-- **Tailwind CSS** (vía CDN para utilidades de diseño rápido)
-- **JavaScript (Vanilla ES6+)**
-- **[Prism.js](https://prismjs.com/)** (Para el resaltado de sintaxis)
-- **[html-to-image](https://github.com/bubkoo/html-to-image)** (Para renderizar el DOM como imagen PNG)
+- 🎨 Resaltado de sintaxis para HTML, CSS, JavaScript y Python
+- 🌈 Selector de paletas de fondo con efecto visual en tiempo real
+- 📏 Ajuste de padding y tamaño del marco
+- 🖥️ Diseño estilo macOS con controles de ventana
+- ⚡ Funcionamiento 100% frontend, sin backend ni almacenamiento externo
+- 📤 Exportación en alta resolución como imagen PNG
 
 ---
 
-## 📁 Estructura del Proyecto
+## 🧩 Stack tecnológico
+
+- HTML5
+- CSS3
+- JavaScript Vanilla
+- Tailwind CSS via CDN
+- Prism.js
+- html-to-image
+
+---
+
+## 📁 Estructura del proyecto
 
 ```text
 sscode/
-├── index.html     # Estructura principal de la aplicación
-├── style.css      # Estilos personalizados y ajustes para la captura
-├── app.js         # Lógica de renderizado, eventos y descarga
-├── favicon.svg    # Icono de la pestaña del navegador
-└── README.md      # Documentación del proyecto
+├── index.html           # Interfaz principal
+├── style.css            # Estilos y diseño visual
+├── app.js               # Lógica de la aplicación
+├── README.md            # Documentación del proyecto
+├── img/
+│   ├── favicon.svg      # Ícono del navegador
+│   └── preview.png      # Vista previa del proyecto
+├── .git/                # Metadatos del repositorio
+└── .gitignore           # Archivos ignorados por Git
+```
+
+---
+
+## 🚀 Cómo usarlo
+
+1. Abre `index.html` en tu navegador.
+2. Escribe o pega tu código en el editor.
+3. Ajusta el tema, el padding y el estilo del frame.
+4. Haz clic en el botón de descarga para guardar la imagen PNG.
+
+---
+
+## 📝 Nota
+
+Este proyecto está pensado para ejecutarse sin servidor, por lo que solo requiere abrir el archivo HTML en un navegador moderno.
