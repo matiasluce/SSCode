@@ -52,6 +52,10 @@ sscode/
 3. Ajusta el tema, el padding y el estilo del frame.
 4. Haz clic en el botón de descarga para guardar la imagen PNG.
 
+También puedes probar la versión desplegada en GitHub Pages:
+
+- [SSCode en GitHub Pages](https://matiasluce.github.io/SSCode/)
+
 ---
 
 ## 📝 Nota
